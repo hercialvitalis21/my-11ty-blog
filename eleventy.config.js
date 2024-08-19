@@ -10,6 +10,12 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
 
+module.exports = async function (eleventyConfig) {
+const { EleventyHtmlBasePlugin } = await import("@11ty/eleventy");
+
+eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+};
+
 /** @param {import('@11ty/eleventy').UserConfig} eleventyConfig */
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -120,15 +126,15 @@ module.exports = function(eleventyConfig) {
 
 		// Pre-process *.html files with: (default: `liquid`)
 		htmlTemplateEngine: "njk",
-
-		// These are all optional:
+		//__________________________________________________________________
+		//Optional items
+		//------------------------------------------------------------------
 		dir: {
-			input: "content",          // default: "."
+			input:"content",          // default: "."
 			includes: "../_includes",  // default: "_includes"
 			data: "../_data",          // default: "_data"
 			output: "_site"
 		},
-
 		// -----------------------------------------------------------------
 		// Optional items:
 		// -----------------------------------------------------------------
@@ -140,5 +146,5 @@ module.exports = function(eleventyConfig) {
 		// it will transform any absolute URLs in your HTML to include this
 		// folder name and does **not** affect where things go in the output folder.
 		pathPrefix: "/",
-	};
-};
+	}
+}
