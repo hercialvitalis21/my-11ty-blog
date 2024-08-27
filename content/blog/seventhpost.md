@@ -167,6 +167,18 @@ At least 55 protesters were arrested following violent clashes with police in do
 ### President elect Donald Trump tried something.
 Trump posted AI-generated Taylor Swift endorsement to the media.
 
+<h3>What’s Next</h3>
+The House and Senate are on their summer break and aren’t scheduled to return to Washington until Sept. 9.
+
+Trump and Harris are scheduled to debate on Sept. 10.
+
+Republican vice presidential nominee JD Vance and Walz are set to debate on Oct. 1.
+
+<h2>Sanity Token</h2>
+
+
+Hercial Vitalis added a new token to the project Sanity Crash Course. The token was given the label SANITY_API_READ_TOKEN for blog-nextjs-sanity on Vercel (4nh9).
+
 
 <li><a href="/blog/firstpost/">First post</a></li>
 <li><a href="/blog/secondpost/">Second post</a></li>

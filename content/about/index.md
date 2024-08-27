@@ -9,6 +9,10 @@ eleventyNavigation:
 
 [my-links-wordpress](https://gravatar.com/profile/links)
 
+[numerade](https://www.numerade.com/ask/question/question-28-333-points-assume-that-the-united-states-invests-heavily-in-government-and-corporate-securities-of-new-zealand-in-addition-residents-of-new-zealand-invest-heavily-in-the-united-s-60238/)
+
+[commodity-trading-strategy](https://medium.com/@mustafakiyak_97587/commodity-trading-strategies-2ca5fe94265b)
+
 [me](/assets/drink3.jpg)
 
 [me2](/assets/lights.jpg)
