@@ -13,6 +13,23 @@ eleventyNavigation:
 
 [commodity-trading-strategy](https://medium.com/@mustafakiyak_97587/commodity-trading-strategies-2ca5fe94265b)
 
+## Economic links
+
+[IMF](https://www.imf.org/)
+
+[World Bank](https://www.worldbank.org)
+
+[World Trade Organization](https://www.wto.org/)
+
+[Russia Foreign Affairs Ministry](https://mid.ru/en/)
+
+[BRISC](https://www.brisc.org/)
+
+[G20](https://www.g20.org/)
+
+[investor simulator](https://www.investopedia.com/simulator/portfolio#state=04059815-5107-4284-8352-374ac1383c8d&session_state=da17853c-d395-4162-a6ef-de561fbebb7a&iss=https:/auth.investopedia.com/realms/investopedia&code=586276da-343d-40a0-a387-5291204797bd.da17853c-d395-4162-a6ef-de561fbebb7a.12bddc88-7575-48ef-99f9-f196203e4054)
+
+
 [me](/assets/drink3.jpg)
 
 [me2](/assets/lights.jpg)
