@@ -239,3 +239,19 @@ S&P 500	5,702.55	 -11.09 (-0.19%)
 NASDAQ	17,948.32	 -65.66 (-0.36%
 
 
+[Marian db](https://www.youtube.com/watch?v=xTxFLgvVOZs)
+[Tubi](https://tubitv.com/movies/100009634/pure-white-b-tch)
+[Mern ai](https://www.youtube.com/watch?v=mkJbEP5GeRA&t=6787s)
+
+<h1>My Compny data under 'Vitalis' in Registrar General Dept</h1>
+VITALIS & CO LTD.
+Type: PROFIT COMPANY
+Company Identifier: 1201328
+Company #: V803(95)
+Address: 40 EDINBURGH GARDENS SECTION 3 CHAGUANAS, CHAGUANAS
+Incorporated on: 28/10/2005
+Status: ACTIVE
+
+[Registrar General Department](https://rgd.legalaffairs.gov.tt/ttCompaniesRegistry/login)
+
+

@@ -42,6 +42,7 @@
 		"markdown-it-anchor": "^8.6.7"
 	},
 	"dependencies": {
+		"@11ty/eleventy-server-browsersync": "^1.0.2",
 		"eleventy-base-blog": "file:"
 	}
 }

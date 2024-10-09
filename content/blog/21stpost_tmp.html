@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>21stpost.md</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+html,footer,header{
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Custom MD PDF CSS
+ */
+html,footer,header{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+
+ }
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+<link rel="stylesheet" href="file:///r%3A/2.Travail/1.Enseignement/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css"><link rel="stylesheet" href="file:///d%3A/rdaros/Cours/_1.Outils/2.Developpement/1.SCSS/main.css" type="text/css">
+</head>
+
+<body>
+    <p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	42,147.50	 -60.72 (-0.14%)<br>
+S&amp;P 500	5,739.40	 6.47 (0.11%)<br>
+NASDAQ	18,136.20	 61.68 (0.34%)</p>
+<img src="file:///c:/img/image21.png" alt="Wednesday Market Insight">
+<p>Total<br>
+$163,350.45<br>
++$472.44 +0.29%<br>
+Equities<br>
+89.39%<br>
+$146,012.36<br>
++$574.69 +0.40%<br>
+Investment Funds<br>
+10.44%<br>
+$17,059.84<br>
+-$102.73 -0.60%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.17%<br>
+$278.25<br>
++$0.48 +0.17%</p>
+<h2>Midday</h2>
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	41,903.35	 -304.87 (-0.72%)<br>
+S&amp;P 500	5,719.11	 -13.82 (-0.24%)<br>
+NASDAQ	18,076.44	 1.92 (0.01%)</p>
+<img src="file:///c:/img/image21.1.png" alt="Wednesday Market Insight">
+<p>Total<br>
+$162,872.04<br>
+-$5.97 0.00%<br>
+Equities<br>
+89.38%<br>
+$145,567.63<br>
++$129.96 +0.09%<br>
+Investment Funds<br>
+10.45%<br>
+$17,026.16<br>
+-$136.41 -0.79%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.17%<br>
+$278.25<br>
++$0.48 +0.17</p>
+<p>Your selections for PAYCHEX, INC. Control # 1731775443387741 have been submitted successfully</p>
+<p>
+PAYCHEX, INC.
+2024 Annual Meeting
+To be held Thursday, October 10, 2024
+</p><p>Attend This Meeting<br>
+Attend Virtually<br>
+Meeting Web Address:<br>
+https://www.virtualshareholdermeeting.com/PAYX2024</p>
+<p>CUSIP:<br>
+704326</p>
+<p>PAYCHEX, INC. is hosting a Virtual Stockholder Meeting on Thursday, October 10, 2024 at 09:30 AM, Eastern Time, and the stockholders of record will be able to vote and ask questions online during the meeting. If you would like to attend the virtual meeting and have your control number, please log in 15 minutes prior to the start of the meeting.</p>
+<p>Test your browser's compatibilityopens in new window.</p>
+<p>Please review the proxy statement for more information.</p>
+<p></p>
+<p>Total<br>
+$162,748.34<br>
+-$129.67 -0.08%<br>
+Equities<br>
+89.36%<br>
+$145,436.55<br>
+-$1.12 0.00%<br>
+Investment Funds<br>
+10.47%<br>
+$17,033.54<br>
+-$129.03 -0.75%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.17%<br>
+$278.25<br>
++$0.48 +0.17</p>
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	41,884.18	 -324.04 (-0.77%)<br>
+S&amp;P 500	5,715.27	 -17.66 (-0.31%)<br>
+NASDAQ	18,058.74	 -15.78 (-0.09%)</p>
+<p>
+THE PROCTER &amp; GAMBLE COMPANY
+2024 Annual Meeting
+To be held Tuesday, October 8, 2024
+</p><p>Attend This Meeting<br>
+Attend Virtually<br>
+Meeting Web Address:<br>
+https://www.virtualshareholdermeeting.com/PG2024</p>
+<p>CUSIP:<br>
+742718<br>
+control #=<br>
+Control #<br>
+8874762927200156</p>
+<p>THE PROCTER &amp; GAMBLE COMPANY is hosting a Virtual Shareholder Meeting on Tuesday, October 8, 2024 at 12:00 PM, Eastern Time, and the shareholders of record will be able to vote and ask questions online during the meeting. If you would like to attend the virtual meeting and have your control number, please log in 15 minutes prior to the start of the meeting.</p>
+<p>Test your browser's compatibilityopens in new window.</p>
+<p>Please review the proxy statement for more information.</p>
+<p><a href="https://home.treasury.gov/">US dept of the treasury</a></p>
+<p>Total<br>
+$163,034.98<br>
++$156.97 +0.10%<br>
+Equities<br>
+89.41%<br>
+$145,762.23<br>
++$324.56 +0.22%<br>
+Investment Funds<br>
+10.42%<br>
+$16,994.50<br>
+-$168.07 -0.98%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.17%<br>
+$278.25<br>
++$0.48 +0.17%</p>
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	41,914.75	 -293.47 (-0.70%)<br>
+S&amp;P 500	5,722.26	 -10.67 (-0.19%)<br>
+NASDAQ	18,082.21	 7.68 (0.04%)</p>
+<img src="file:///c:/img/image21.2.png" alt="Wednesday market insights">
+<p></p>
+<h2>Thursday September 26, 2024</h2>
+<p>Total<br>
+$164,411.78<br>
++$1,384.... +0.85%<br>
+Equities<br>
+89.50%<br>
+$147,140.74<br>
++$1,386.08 +0.95%<br>
+Investment Funds<br>
+10.33%<br>
+$16,989.29<br>
+-$5.21 -0.03%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.17%<br>
+$281.75<br>
++$3.50 +1.26</p>
+<img src="file:///c:/img/image21.3.png" alt="Thursday Market Insight">
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	42,093.75	 179.00 (0.43%)<br>
+S&amp;P 500	5,753.04	 30.78 (0.54%)<br>
+NASDAQ	18,248.00	 165.80 (0.92%)</p>
+<p><a href="https://investors.fedex.com/home/default.aspx">fedex-investor-relations</a>;</p>
+<p><a href="https://www.cnbc.com/markets/">cncb</a>;</p>
+<p><a href="https://www.fxstreet.com/">fxstreet</a>;</p>
+<p><a href="https://www.lseg.com/en">lsg</a>;</p>
+<p><a href="https://www.youtube.com/@WordPressdotcom">myutubevideo</a>;</p>
+<h2>Closing</h2>
+<p>Total<br>
+$163,505.99<br>
++$478.58 +0.29%<br>
+Equities<br>
+89.57%<br>
+$146,456.78<br>
++$702.12 +0.48%<br>
+Investment Funds<br>
+10.38%<br>
+$16,969.65<br>
+-$24.85 -0.15%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.05%<br>
+$79.56<br>
+-$198.69 -71.41%</p>
+<img src="file:///c:/img/image21.4.png" alt="Closing Market Insights">
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	42,175.11	 260.36 (0.62%)<br>
+S&amp;P 500	5,745.37	 23.11 (0.40%)<br>
+NASDAQ	18,190.29	 108.09 (0.60%)</p>
+<p>US Equities Markets End Higher Thursday as Traders Evaluate US Economic Growth Rate
+04:00 PM EDT, 09/26/2024 (MT Newswires) -- US benchmark equity indexes ended higher Thursday as traders evaluated the latest set of macro data.
+</p><ul>
+<li>The US economy grew at an annual rate of 3% in the second quarter, unchanged from an earlier projection, according to a third estimate by the Bureau of Economic Analysis. The consensus was for a 2.9% print in a Bloomberg-compiled consensus. In the first quarter, real gross domestic product rose 1.6%.</li>
+</ul>
+<p>&quot;A solid showing, at least in the rear-view mirror, of domestic activity reinforces the need for a tempered and patient approach to subsequent rate reductions&quot; by the Federal Reserve, Stifel said in a note to clients.</p>
+<ul>
+<li>
+<p>Pending home sales in the US rose 0.6% last month, the National Association of Realtors said Thursday. &quot;A slight upward turn reflects a modest improvement in housing affordability, primarily because mortgage rates descended to 6.5% in August,&quot; said NAR Chief Economist Lawrence Yun. &quot;However, contract signings remain near cyclical lows even as home prices keep marching to new record highs.&quot;</p>
+</li>
+<li>
+<p>November West Texas Intermediate crude oil closed down $2.02 to settle at $67.67 per barrel, while November Brent crude, the global benchmark, was last seen down $1.986 to $71.48 following a report that said OPEC+ will begin to return 2.2 million barrels per day of voluntary production cuts to market as Saudi Arabia, the group's leader, abandons its US$100 per barrel price target to regain market share, while Libya's two squabbling governments reached an agreement that should see its exports rise.</p>
+</li>
+<li>
+<p>Micron Technology (MU) shares were up 15% as the memory and storage product maker swung to a bigger-than-expected profit for its fiscal Q4 as mounting demand for artificial intelligence propelled revenue above Wall Street's estimates.</p>
+</li>
+<li>
+<p>Super Micro Computer (SMCI) fell 12.5%. The Wall Street Journal reported that the company is being probed by the US Department of Justice over accusations of accounting violations made by a former employee.</p>
+</li>
+</ul>
+<p>Potential Outcomes of a 3% US Economic Growth Rate in the Second Quarter<br>
+A 3% annualized economic growth rate in the second quarter of the US economy suggests a period of robust economic activity. This can have several potential outcomes:</p>
+<p>Positive Outcomes:<br>
+Job Creation: A growing economy often leads to increased business activity, which can result in higher demand for labor.<br>
+Increased Consumer Spending: As people feel more secure about their jobs and income, they may be more likely to spend money, boosting consumer confidence and economic activity.<br>
+Stock Market Growth: A strong economy can lead to increased investor confidence, potentially driving up stock prices.<br>
+Lower Unemployment: A growing economy often leads to a decrease in unemployment as businesses hire more workers.<br>
+Increased Government Revenue: A stronger economy can generate more tax revenue for the government, which can be used to fund public services and reduce the national debt.<br>
+Potential Challenges:<br>
+Inflation: Rapid economic growth can sometimes lead to inflation, as increased demand for goods and services outpaces supply. This can erode the purchasing power of consumers and lead to higher interest rates.<br>
+Income Inequality: Economic growth may not benefit everyone equally. If the gains from growth are concentrated among a small group of people, it can exacerbate income inequality.<br>
+Trade Imbalances: A strong US economy can lead to increased imports, which can create trade imbalances.<br>
+Federal Reserve Policy: In response to economic growth and potential inflation, the Federal Reserve may raise interest rates to slow down the economy. This can have a dampening effect on economic activity.<br>
+Overall, a 3% economic growth rate is generally considered a positive sign for the US economy. However, it is important to monitor the economy closely to ensure that growth is sustainable and does not lead to negative consequences like excessive inflation or income inequality</p>
+<p><strong>Potential Outcomes</strong></p>
+<p>Inflation: A Potential Challenge of Economic Growth<br>
+Inflation occurs when the general price level of goods and services rises over time, reducing the purchasing power of a currency. While a certain level of inflation is considered normal and healthy for an economy, excessive inflation can have detrimental effects.</p>
+<p>Potential Consequences of High Inflation:<br>
+Erosion of Purchasing Power: As prices rise, consumers can buy less with their money, leading to a decline in living standards.<br>
+Uncertainty and Investment Discouragement: High inflation can create economic uncertainty, discouraging investment and business activity.<br>
+Income Inequality: Inflation can disproportionately affect low-income households, exacerbating income inequality.<br>
+Debt Burden: For those with fixed-rate loans, high inflation can increase the real cost of borrowing, making it more difficult to pay back debts.<br>
+Strategies to Control Inflation:<br>
+Monetary Policy:</p>
+<p>Interest Rate Increases: Central banks can raise interest rates to make borrowing more expensive, discouraging spending and reducing demand for goods and services.<br>
+Open Market Operations: Central banks can sell government bonds to reduce the money supply, making it more difficult for people to borrow and spend.<br>
+Fiscal Policy:</p>
+<p>Government Spending Cuts: Reducing government spending can decrease aggregate demand and help curb inflation.<br>
+Tax Increases: Raising taxes can reduce disposable income, leading to decreased consumer spending.<br>
+Supply-Side Policies:</p>
+<p>Deregulation: Reducing regulations can increase efficiency and productivity, leading to lower prices.<br>
+Investment in Infrastructure: Investing in infrastructure can improve productivity and reduce costs for businesses.<br>
+Trade Liberalization: Reducing trade barriers can increase competition and lower prices.<br>
+Wage and Price Controls:</p>
+<p>Direct Controls: Governments can impose price ceilings or wage freezes to limit price increases. However, these controls can be difficult to enforce and can lead to shortages or black markets.<br>
+It's important to note that striking the right balance between controlling inflation and maintaining economic growth is a complex challenge. Overly restrictive policies can stifle economic activity, while insufficient measures can allow inflation to spiral out of control. Central banks and governments must carefully monitor economic indicators and adjust their policies accordingly.</p>
+<p>What are some of the economic indicators to carefully monitor?</p>
+<p>Key Economic Indicators to Monitor<br>
+Here are some of the most important economic indicators that policymakers, economists, and investors closely watch:</p>
+<p>Gross Domestic Product (GDP)<br>
+Definition: The total market value of all final goods and services produced within a country in a given period.<br>
+Importance: It measures the overall health of an economy and its growth rate.<br>
+Inflation Rate<br>
+Definition: The rate at which the general price level of goods and services rises over time.<br>
+Importance: High inflation can erode purchasing power, while low inflation can signal economic weakness.<br>
+Unemployment Rate<br>
+Definition: The percentage of the labor force that is unemployed.<br>
+Importance: A high unemployment rate indicates economic problems, while a low unemployment rate suggests a strong economy.<br>
+Interest Rates<br>
+Definition: The cost of borrowing money.<br>
+Importance: Interest rates influence investment, consumer spending, and the overall economy.<br>
+Consumer Price Index (CPI)<br>
+Definition: A measure of the average change over time in the price of goods and services consumed by households.<br>
+Importance: It is used to calculate inflation and adjust wages and pensions.<br>
+Producer Price Index (PPI)<br>
+Definition: A measure of the average change over time in the selling prices of goods and services by domestic producers.<br>
+Importance: It indicates future trends in consumer prices.<br>
+Retail Sales<br>
+Definition: The total value of goods sold to consumers.<br>
+Importance: It reflects consumer spending and economic activity.<br>
+Industrial Production<br>
+Definition: The total output of manufacturing, mining, and utilities.<br>
+Importance: It measures the health of the manufacturing sector.<br>
+Business Confidence<br>
+Definition: Surveys that measure the confidence of businesses in the economy.<br>
+Importance: It can indicate future economic trends.<br>
+Trade Balance<br>
+Definition: The difference between a country's exports and imports.<br>
+Importance: A trade deficit indicates a country is importing more than it is exporting.<br>
+Monetary Policy<br>
+Definition: The policies implemented by a central bank to control the money supply and interest rates.<br>
+Importance: Monetary policy affects inflation, investment, and economic growth.<br>
+By closely monitoring these indicators, economists and policymakers can assess the current state of the economy, identify potential risks, and make informed decisions to promote economic stability and growth</p>
+<p><a href="https://www.mongodb.com/developer/">mongodgdeveloper</a></p>
+<p></p>
+<h2>Friday September 27, 2024</h2>
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	42,286.71	 111.60 (0.26%)<br>
+S&amp;P 500	5,730.75	 -14.62 (-0.25%)<br>
+NASDAQ	18,081.47	 -108.82 (-0.60%)</p>
+<img src="file:///c:/img/image21.5.png" alt="Friday Market Insight">
+<p>Total<br>
+$162,573.91<br>
+-$942.95 -0.58%<br>
+Equities<br>
+89.47%<br>
+$145,452.28<br>
+-$1,015.37 -0.69%<br>
+Investment Funds<br>
+10.48%<br>
+$17,037.38<br>
++$67.73 +0.40%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.05%<br>
+$84.25<br>
++$4.69 +5.89</p>
+<p>Market UpdateQuotes at least 15 mins delayed<br>
+OverviewFixed IncomeTop Broad Market Indices<br>
+Name	Price	Day Change<br>
+DJIA	42,313.00	 137.89 (0.33%)<br>
+S&amp;P 500	5,738.17	 -7.20 (-0.13%)<br>
+NASDAQ	18,119.59	 -70.70 (-0.39%)</p>
+<img src="file:///c:/img/image21.6.png" alt="Friday Market Insight">
+<p>Total<br>
+$163,009.69<br>
+-$507.17 -0.31%<br>
+Equities<br>
+89.49%<br>
+$145,870.17<br>
+-$597.48 -0.41%<br>
+Investment Funds<br>
+10.46%<br>
+$17,055.27<br>
++$85.62 +0.50%<br>
+Cash, Money Funds and Bank Deposits<br>
+0.05%<br>
+$84.25<br>
++$4.69 +5.8</p>
+<p><a href="https://www.mongodb.com/developer/products/mongodb/migrate-from-postgres-to-mongodb/">mongoose tutorial</a></p>
+
+</body>
+
+</html>
