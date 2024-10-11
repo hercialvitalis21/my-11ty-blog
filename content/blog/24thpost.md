@@ -435,3 +435,264 @@ IPv4 DNS servers:	192.168.0.1 (Unencrypted)
 Physical address (MAC):	94-E2-3C-15-40-F0
 
 LIB-1013446_SECURITY_KEY='6mpmkvxjHsim'
+
+<h1>AI pioneers win Nobel Prize in physics</h1>
+
+■ STOCKHOLM
+
+TWO pioneers of artificial intelligence-John Hopfield and Geoffrey Hinton-won the Nobel Prize in physics yesterday for helping create the building blocks of machine learning that is revolutionising the way we work and live but also creates new threats for humanity.
+
+Hinton, who is known as the godfather of artificial intelligence, is a citizen of Canada and Britain who works at the University of Toronto, and Hopfield is an American working at Princeton.
+
+'These two gentlemen were really the pioneers,' said Nobel physics committee member Mark Pearce. 'They...did the fundamental work, based on physical understanding which has led to the revolution we see today in machine learning and artificial intelligence.'
+
+The artificial neural networks-interconnected computer nodes inspired by neurons in the human brain-the researchers pioneered are used throughout science and medicine and 'have also become part of our daily lives, for instance in facial recognition and language translation', said Ellen Moons, a member of the Nobel committee at the Royal Swedish Academy of Sciences.
+
+'Huge influence' Hopfield, whose 1982 work laid the groundwork for Hinton's, told The Associated Press yesterday, 'I continue to be amazed by the impact it has had.'
+
+Hinton predicted that AI will end up having a 'huge influence' on civilisation, bringing improvements in productivity and health care.
+
+'It would be comparable with the Industrial Revolution,' he said in an open call with reporters and officials of the Royal Swedish Academy of Sciences.
+
+'Instead of exceeding people in physical strength, it's going to exceed people in intellectual ability. We have no experience of what it's like to have things smarter than us. And it's going to be wonderful in many respects,' Hinton said.
+
+'But we also have to worry about a number of possible bad consequences, particularly the threat of these things getting out of control.'
+
+Warning of AI risks
+
+The Nobel committee also mentioned fears about the possible flipside.
+
+Moons said that while it has 'enormous benefits, its rapid development has also raised concerns about our future. Collectively, humans carry the responsibility for using this new technology in a safe and ethical way for the greatest benefit of humankind'.
+
+Hinton shares those concerns. He quit a role at Google so he could speak more freely about the dangers of the technology he helped create.
+
+<img src="/img/nobel.jpg" alt="picture"/>
+REVOLUTIONARY WORK: This photo combo shows the 2024 Nobel Prize winners in physics, Prof John Hopfield, left, of Princeton University, and Prof Geoffrey Hinton of the University of Toronto, yesterdayh3>
+
+<h3>Midday</h3>
+
+
+Total
+$164,733.52
++$117.93 +0.07%
+Equities
+91.37%
+$150,517.26
++$144.45 +0.10%
+Investment Funds
+7.55%
+$12,444.45
+-$27.01 -0.22%
+Cash, Money Funds and Bank Deposits
+1.08%
+$1,771.81
++$0.49 +0.03
+
+<img src="/img/image24.10.png" alt="sale" style="width:100%;"/>
+
+Market UpdateQuotes at least 15 mins delayed
+OverviewFixed IncomeTop Broad Market Indices
+Name	Price	Day Change
+DJIA	42,426.40	 346.03 (0.82%)
+S&P 500	5,779.96	 28.83 (0.50%)
+NASDAQ	18,257.52	 74.60 (0.41%)
+
+Market UpdateQuotes at least 15 mins delayed
+OverviewFixed IncomeTop Broad Market Indices
+Name	Price	Day Change
+DJIA	42,489.89	 409.52 (0.97%)
+S&P 500	5,786.32	 35.19 (0.61%)
+NASDAQ	18,271.88	 88.96 (0.49%)
+
+<img src="/img/image24.11.png" alt="sale" style="width:100%;"/>
+
+Market UpdateQuotes at least 15 mins delayed
+Market UpdateQuotes at least 15 mins delayed
+OverviewFixed IncomeTop Broad Market Indices
+Name	Price	Day Change
+DJIA	42,489.89	 409.52 (0.97%)
+S&P 500	5,786.32	 35.19 (0.61%)
+NASDAQ	18,271.88	 88.96 (0.49%)
+
+Total
+$164,878.66
++$263.07 +0.16%
+Equities
+91.37%
+$150,657.85
++$285.04 +0.19%
+Investment Funds
+7.55%
+$12,449.00
+-$22.46 -0.18%
+Cash, Money Funds and Bank Deposits
+1.07%
+$1,771.81
++$0.49 +0.0
+
+
+Total
+$165,080.53
++$464.94 +0.28%
+Equities
+91.38%
+$150,853.90
++$481.09 +0.32%
+Investment Funds
+7.54%
+$12,454.82
+-$16.64 -0.13%
+Cash, Money Funds and Bank Deposits
+1.07%
+$1,771.81
++$0.49
+
+<img src="/img/image24.12.png" alt="sale" style="width:100%;"/>
+
+Market UpdateQuotes at least 15 mins delayed
+OverviewFixed IncomeTop Broad Market Indices
+Name	Price	Day Change
+DJIA	42,518.33	 437.96 (1.04%)
+S&P 500	5,792.81	 41.68 (0.72%)
+NASDAQ	18,292.57	 109.65 (0.60%)
+
+<h1>Thursday October 10 2024</h1>
+
+Frequently Asked Question
+All Categories » Companies Registry Online System
+How do I indicate I will be a Director/Secretary/etc in a company (or business)?
+Last Updated 3 months ago
+
+Each registered person must go to the approvals section of their Companies Registry Online System (CROS) account to add themselves as the desired role (Director, Secretary, etc.) of a Company/business.
+
+To assign your approval, please follow the below guidelines, as applicable:
+
+1. Individuals
+log into CROS using the Individual Role
+Select “My Account”, click “Approval”, and enter the:
+Type - whether “yet to be” or “existing”
+Role - the role you intend to hold
+Identifier - the name reservation number (yet to be) or company/business identifier (existing)
+Name - the proposed name (yet to be) or company/business name (existing)
+2. Companies
+log into CROS using the Director or Secretary Role
+Select “My Account”, click “Approval”, and enter the:
+Type - whether “yet to be” or “existing”
+Role - the role the company intends to hold
+Identifier - the name reservation number (yet to be) or company/business identifier (existing)
+Name - the proposed name (yet to be) or company/business name (existing)
+3. Businesses
+log into CROS using the Partner of a Firm/Partnership Role
+Select “My Account”, click “Approval”, and enter the:
+Type - “Existing”
+Role - Secretary
+Identifier - the company identifier (existing)
+Name - the company name (existing)
+Search our knowledge base
+Copyright © 2024 RGD Tickets - All rights reserved.
+
+Total
+$165,059.59
++$24.19
+
++0.01%
+Equities
+91.35%
+$150,788.01
++$4.05
+
+0.00%
+Investment Funds
+7.57%
+$12,497.80
++$18.17
+
++0.15%
+Cash, Money Funds and Bank Deposits
+1.07%
+$1,773.78
++$1.97
+
++0.11
+
+<img src="/img/image24.13.png" alt="sale" style="width:100%;"/>
+
+Market Update
+Quotes at least 15 mins delayed
+
+    Overview
+    Fixed Income
+    Top Broad Market Indices
+
+Name	Price	Day Change
+DJIA	42,414.25	 -97.75 (-0.23%)
+S&P 500	5,782.40	 -9.64 (-0.17%)
+NASDAQ	18,273.78	 -17.83 (-0.10%)
+The Index Compare chart shows a line graph tracking the price of the DJIA during the market hours on 10/10/2024.
+<hr/>
+
+U.S. consumer prices rise slightly above expectations in September
+
+*
+
+U.S. weekly jobless claims surge
+
+*
+
+Traders see an 88% chance of a 25 bp cut in November
+
+(Adds graphic and updates prices as of 1524 GMT)
+
+By Anushree Mukherjee
+
+Oct 10 (Reuters) - Gold prices extended gains on Thursday after traders added to bets that the Federal Reserve will deliver an interest-rate cut next month following the latest U.S. economic data.
+
+Spot gold was up 0.6% at $2,622.69 per ounce as of 11:24 a.m. ET (1524 GMT)on track to snap a six-session losing streak. U.S. gold futures edged 0.5% higher to $2,639.90.
+
+U.S. consumer prices rose slightly more than expected in September, but the annual increase in inflation was the smallest in more than 3-1/2 years. Another report showed that weekly jobless claims rose to 258,000 for the week ending Oct. 5, versus estimates of 230,000.
+
+"The CPI report didn't bring much of a surprise and the jobs numbers show a trend of weakening, which puts the notion that the track to cut rates, helping gold. Last few days, saw cooling in gold's rally, so it is in a good position to go back up," said Alex Ebkarian, chief operating officer at Allegiance Gold.
+
+Markets now see an 88% likelihood of a 25-basis-point cut from the Fed next month versus 76% before the data, according to the CME FedWatch tool.
+
+Zero-yield bullion is a preferred investment amid lower interest rates.
+
+Investors' focus will shift to U.S. Producer Price Index data on Friday for additional insights on rate cuts.
+
+Heightened geopolitical events and strong demand led by central banks are the other positive catalysts for gold, Ebkarian added.
+
+In the Middle East, Israel pressed its assault on Hezbollah and told Lebanese civilians not to return to homes in the south.
+
+Spot silver rose 1.2% to $30.87 per ounce.
+
+"Easing monetary policy and an undersupplied market will likely attract investor interest, with silver remaining an inexpensive alternative to gold," ANZ said in a note.
+
+Platinum added 2.5% to $968.15, and palladium was up 1.9% to $1,059.77.
+
+(Reporting by Anushree Mukherjee in Bengaluru; Editing by Tasim Zahid)
+
+Total
+$165,162.27
++$126.87
+
++0.08%
+Equities
+91.36%
+$150,891.94
++$107.98
+
++0.07%
+Investment Funds
+7.57%
+$12,496.55
++$16.92
+
++0.14%
+Cash, Money Funds and Bank Deposits
+1.07%
+$1,773.78
++$1.97
+
++0.11
+
+
