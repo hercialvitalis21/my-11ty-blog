@@ -9,11 +9,11 @@
 		{#- Atom and JSON feeds included by default #}
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
-
+		<link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin>
 		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
 		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
 
-		{#-
+		{#-add
 		CSS bundles are provided via the `eleventy-plugin-bundle` plugin:
 		1. You can add to them using `{% css %}`
 		2. You can get from them using `{% getBundle "css" %}` or `{% getBundleFileUrl "css" %}`
@@ -32,6 +32,15 @@
 		<style>{% getBundle "css" %}</style>
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		{#- <link rel="stylesheet" href="{% getBundleFileUrl "css" %}"> #}
+
+	<script
+  id="codeGPTWidgetScript"
+  type="module"
+  async
+  src="https://widget.codegpt.co/chat-widget.js"
+  defer
+  data-widget-id="56fcfc0c-187e-4bf7-bcba-9b2a87251a5c"
+></script>
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden">Skip to main content</a>

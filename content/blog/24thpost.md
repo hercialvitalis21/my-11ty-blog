@@ -695,4 +695,181 @@ $1,773.78
 
 +0.11
 
+<h1>Friday October 11 2024</h1>
+
+<img src="/img/image24.14.png" alt="image24.14" style="zoom:50%;" />
+
+Market Update
+Quotes at least 15 mins delayed
+
+Name	Price	Day Change
+DJIA	42,454.12	0.00 (0.00%)
+S&P 500	5,780.05	0.00 (0.00%)
+NASDAQ	18,282.05	0.00 (0.00%)
+The Index Compare chart shows a line graph tracking the price of the DJIA during the market hours on 10/11/2024.
+
+Total
+$165,132.39
+-$0.06
+
+0.00%
+Equities
+91.36%
+$150,865.49
+-$1.83
+
+0.00%
+Investment Funds
+7.56%
+$12,489.99
+$0.00
+
+0.00%
+Cash, Money Funds and Bank Deposits
+1.08%
+$1,776.91
++$1.77
+
++0.10
+
+Skip to main content
+
+    Accounts
+    Transact
+    Research
+    Communications
+
+Trade
+Pay Bills
+
+    Balances
+    Holdings
+    Gain/Loss
+    History
+    Projected Cash Flow
+    Profile
+
+History for
+VITALISHERx1044
+As of  10:41 AM ET
+Security ID
+Transaction
+All
+Time Period
+Last 7 Days
+Data is available for a maximum of 2 years.
+This information is provided by First Citizens Investment Services Ltd through Pershing LLC, member FINRA, NYSE, SIPC, a subsidiary of The Bank of New York Mellon Corporation.
+Asset Protection FAQs
+Margin Disclosure
+
+Buy 3 TMUS at 213.34
+Buy 3  WTS at 206.40
+Sold 10 BHC at 8.0434
+
+Total
+$165,347.90
++$215.45
+
++0.13%
+Equities
+92.12%
+$152,321.78
++$1,454.46
+
++0.96%
+Investment Funds
+7.58%
+$12,533.04
++$43.05
+
++0.34%
+Cash, Money Funds and Bank Deposits
+0.30%
+$493.08
+-$1,282.06
+
+-72.22
+
+<img src="/img/image24.15.png" alt="image24.15" style="zoom:50%;" />
+
+Market Update
+Quotes at least 15 mins delayed
+
+    Overview
+    Fixed Income
+    Top Broad Market Indices
+
+Name	Price	Day Change
+DJIA	42,763.99	 309.87 (0.73%)
+S&P 500	5,817.44	 37.39 (0.65%)
+NASDAQ	18,354.58	 72.53 (0.40%)
+The Index Compare chart shows a line graph tracking the price of the DJIA during the market hours on 10/11/2024.
+<hr/>
+Market Update
+Quotes at least 15 mins delayed
+
+    Overview
+    Fixed Income
+    Top Broad Market Indices
+
+Name	Price	Day Change
+DJIA	42,752.49	 298.37 (0.70%)
+S&P 500	5,812.28	 32.23 (0.56%)
+NASDAQ	18,349.94	 67.89 (0.37%)
+The Index Compare chart shows a line graph tracking the price of the DJIA during the market hours on 10/11/2024.
+
+<img src="/img/image24.16.png" alt="image24.16" style="zoom:50%;" />
+Total
+$165,040.14
+-$92.31
+
+-0.06%
+Equities
+92.14%
+$152,071.56
++$1,204.24
+
++0.80%
+Investment Funds
+7.56%
+$12,475.50
+-$14.49
+
+-0.12%
+Cash, Money Funds and Bank Deposits
+0.30%
+$493.08
+-$1,282.06
+
+-72.22
+
+...or create a new repository on the command line
+
+echo "# blog-starter" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hercialvitalis21/blog-starter.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/hercialvitalis21/blog-starter.git
+git branch -M main
+git push -u origin main
+
+[github](https://github.com/hercialvitalis21/my-11ty-blog.git)
+
+Market Update
+Quotes at least 15 mins
+
+Name	Price	Day Change
+DJIA	42,863.86	 409.74 (0.97%)
+S&P 500	5,815.03	 34.98 (0.61%)
+NASDAQ	18,342.94	 60.89 (0.33%
+
+<img src="/img/image24.17.png" alt="image24.16" style="zoom:50%;" />
+
+
 
